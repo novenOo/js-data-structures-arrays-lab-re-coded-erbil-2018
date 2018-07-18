@@ -19,7 +19,7 @@ function prependDriver(name){
 	return [name,...drivers]
 }
 function removeLastDriver(){
-  return delete drivers[drivers.length - 1];
+  return delete ;
 }
 function removeFirstDriver () {
   return drivers.shift();
